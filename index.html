@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Editable Resume </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Editable Resume by Anoushey</h2>
+  <div class="container">
+  
+    <form id="resumeForm">
+      <h1>Personal Information</h1>
+    
+      <input type="text" id="name" class="box" name="name" required  placeholder="enter your name">
+      <br>
+
+      
+      <input type="email" id="email" class="box" name="email" required  placeholder="enter your email">
+      <br>
+
+     
+      <input type="number" id="phone" class="box" name="phone" required placeholder="enter your number">
+      <br>
+
+      <h1>Education</h1>
+  
+      <textarea id="education" class="edu" name="education" placeholder="education"></textarea>
+
+      <h1>Skills</h1>
+   
+      <textarea id="skills" class="edu" name="skills" placeholder="skills"></textarea>
+
+      <h1>Experience</h1>
+     
+      <textarea id="experience" class="edu" name="experience" placeholder="experience"></textarea>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div class="resume-output" id="resumeOutput">
+      <h2 id="out">Your Resume</h2>
+    </div>
+  </div>
+  <script src="main.js"></script> 
+</body>
+</html>
